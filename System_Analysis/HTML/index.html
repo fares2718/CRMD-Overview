@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootstrap.min.css" />
+    <title>CRMD System Analysis</title>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid" style="padding: 15px">
+        <h1 style="margin: auto">Café & Restaurant Management Department</h1>
+      </div>
+    </header>
+    <div
+      class="card text-white bg-primary mb-3"
+      style="max-width: 50rem; padding: 15px; margin: 15px auto"
+    >
+      <h2 class="text-success">Overview</h2>
+      <article class="text-primery">
+        Café & Restaurant Management System The system is a fully integrated
+        platform designed to manage all operational, financial, and
+        inventory-related activities within a café or restaurant. It connects
+        purchasing, stock control, recipe costing, POS operations, table
+        management, billing, staff roles, and reporting into one unified,
+        data-driven environment. This isn’t just a POS. It’s the operational
+        brain of the restaurant.
+        <h4 class="text-success">Primary Goal</h4>
+        Provide a centralized, efficient, and accurate system that:
+        <ul>
+          <li>tracks stock and consumption</li>
+          <li>manages purchases and suppliers</li>
+          <li>processes orders and tables</li>
+          <li>calculates recipe cost and profitability</li>
+          <li>generates financial and operational reports</li>
+          <li>
+            reduces waste, errors, and manual work Ultimately giving owners and
+            managers full visibility over daily performance and profitability.
+          </li>
+        </ul>
+        <h4 class="text-success">Core Modules</h4>
+        <ul>
+          <li>
+            Supplier & Purchasing Management Handles supplier records, purchase
+            invoices, payment tracking, and automatic stock updates. Stores
+            supporting documents and evaluates supplier performance.
+          </li>
+          <li>
+            Inventory Management Real-time quantity tracking, low-stock alerts,
+            stock transactions, daily consumption logging, waste tracking, and
+            stock variance analysis.
+          </li>
+          <li>
+            Recipe Costing Each menu item is defined as a recipe containing
+            ingredient quantities and costs. The system calculates the cost per
+            item, profit margin, and updates pricing impact when ingredient
+            costs change.
+          </li>
+          <li>
+            POS & Table Management Interactive table layout, open/close orders,
+            transfer tables, merge/split bills, assign waiters, track dining
+            duration, support Dine-In / Takeaway / Delivery workflows.
+          </li>
+          <li>
+            Billing & Discounts Order billing, printing or digital invoicing,
+            percentage/fixed discounts, promo codes, happy-hour rules, and
+            permission-based discount control.
+          </li>
+          <li>
+            Daily Consumption & Waste Analysis Records actual usage of raw
+            materials, compares expected vs. actual consumption, highlights
+            waste sources, and produces consumption insights.
+          </li>
+
+          <li>
+            Reporting & Analytics Comprehensive reports: purchases, stock
+            movements, waste, recipe profitability, sales by item/table/waiter,
+            discount usage, and daily/weekly/monthly revenue.
+          </li>
+        </ul>
+        <h4 class="text-success">Target Users</h4>
+        <ul>
+          <li>Owners & managers (operations and profitability overview)</li>
+          <li>Accountants (purchases, payments, financials)</li>
+          <li>Storekeepers (stock and receiving)</li>
+          <li>Cashiers (billing)</li>
+          <li>Waiters (orders and tables)</li>
+        </ul>
+        Each role has permissions tailored to its responsibilities.
+        <h4 class="text-success">Technology & Architecture</h4>
+        <p>I'm building the system using:</p>
+        <ul>
+          <li>ADO.NET for maximum performance and full SQL control</li>
+          <li>
+            Clean Architecture to decouple business rules, data access, and UI
+          </li>
+          <li>Server for strong relational data modeling</li>
+          <li>Desktop application stack Avalonia UI</li>
+        </ul>
+        <h4 class="text-success">How the System Works</h4>
+        Purchases enter the system. Stock levels update automatically. Menu
+        items consume inventory through recipes as orders are placed. Inventory
+        decreases and transactions are logged. Reports analyze performance and
+        financial outcomes. Every action leaves a data footprint in the
+        database, powering real-time insights and accurate analytics.
+        <h4 class="text-success">Real Business Value</h4>
+        <span>Restaurant owners care about practical answers: </span>
+        <ul>
+          <li>Where is stock disappearing?</li>
+          <li>Why did waste spike today?</li>
+          <li>Why did latte cost increase suddenly?</li>
+          <li>Which items are most profitable?</li>
+          <li>Which suppliers cause delays?</li>
+          <li>How much cash went out today?</li>
+          <li>How much came in?</li>
+        </ul>
+        <span>
+          This system converts daily chaos into measurable, transparent data.
+        </span>
+        <h4 class="text-success">Summary</h4>
+        A data-driven operational platform that merges inventory, purchasing,
+        POS, recipe costing, billing, and analytics into one ecosystem. It helps
+        restaurants run faster, more accurately, and more profitably — with real
+        visibility, not guesswork.
+      </article>
+    </div>
+    <footer>
+      <div
+        class="navbar navbar-expand-lg bg-primary"
+        data-bs-theme="dark"
+        style="padding: 15px; margin-top: 15px"
+      >
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a href="business-requirements.html" class="text-white nav-link"
+                  >Business Requirements</a
+                >
+              </li>
+            </ul>
+          </div>
+          <span style="margin: auto"
+            >© 2025 Café & Restaurant Management Department</span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
